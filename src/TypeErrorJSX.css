@@ -1,0 +1,94 @@
+.typeErrorJSX-Err-bin32-81bits--64bits {
+  display: flex;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: #ED4245;
+  color: #fff;
+  border-radius: 5px;
+  width: 150px;
+  z-index: 999;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &>.ErrorPopUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    padding: 5px 20px;
+
+    &>.ri-close-fill {
+      position: relative;
+      font-size: 30px;
+      top: 2px;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: 0.5s;
+  }
+
+}
+
+.activePopUp {
+  display: none;
+
+  &>.one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &>.two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &>.moreInfoAboutJSXError {
+      &>a {
+        color: #000;
+        transition: 0.5s;
+      }
+  
+      &>a:hover {
+        color: #fff;
+        transition: 0.5s;
+      }
+    }
+  
+    &>.footerPopUp {
+      &>a {
+        color: #000;
+        transition: 0.5s;
+      }
+  
+      &>a:hover {
+        color: #fff;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  
+}
+
+.activePopUp.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 10px;
+    position: fixed;
+    background-color: #ED4245;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 700px;
+    width: 600px;
+    border-radius: 5px;
+    z-index: 999;
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "name": "vogzcorp-flexible-jsxerror",
+  "version": "1.0.0",
+  "description": "Flexible JSX error addon",
+  "main": "index.js",
+  "types": "./typings/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Valogzi/vogzcorp-flexible-jsxerror"
+ },
+ "homepage": "vogzcorp.fr (soon)",
+  "author": "VogzCorp",
+  "license": "ISC"
+}

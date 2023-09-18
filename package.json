@@ -3,7 +3,7 @@
     "react": "^18.2.0"
   },
   "name": "vogzcorp-flexible-jsxerror",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flexible JSX error addon",
   "main": "index.js",
   "types": "./typings/index.d.ts",

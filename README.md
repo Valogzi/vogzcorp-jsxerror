@@ -2,6 +2,8 @@
 
 ## The package is open source, you have right to work with it.
 
+Its an addon for help your project if you init an auto db project with a dashboard for exemple. They are created for help the visibility of the error on your code if, for exemple, somethings is injected.
+
 ```node
 npm i vogzcorp-flexible-jsxerror
 ```

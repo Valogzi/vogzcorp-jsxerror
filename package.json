@@ -3,9 +3,9 @@
     "react": "^18.2.0"
   },
   "name": "vogzcorp-flexible-jsxerror",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flexible JSX error addon",
-  "main": "index.js",
+  "main": "main.js",
   "types": "./typings/index.d.ts",
   "repository": {
     "url": "https://github.com/Valogzi/vogzcorp-flexible-jsxerror"

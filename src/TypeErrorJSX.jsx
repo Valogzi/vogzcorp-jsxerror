@@ -1,9 +1,14 @@
+import React from "react"
 import "./TypeErrorJSX.css"
+
 
 export function TypeErrorJSX({message, ERROR_ID}) {
 
-  if (!message || message === undefined || typeof message !== "string") throw new Error("Please, set a something in message argument. (Must be a string argument)")
-  if (!ERROR_ID || ERROR_ID === undefined || typeof ERROR_ID !== "string") throw new Error("Please, set a something in ERROR_ID argument. (Must be a string argument)")
+  if (message === null) message = "They are an error somewhere...";
+  if (ERROR_ID === null) ERROR_ID = "UNDEFINED_ERROR_ID";
+
+  if (!message || message === undefined || typeof message !== "string") throw new Error("Please, set a something in message argument. (Must be a string argument)");
+  if (!ERROR_ID || ERROR_ID === undefined || typeof ERROR_ID !== "string") throw new Error("Please, set a something in ERROR_ID argument. (Must be a string argument)");
 
   return (
     <>

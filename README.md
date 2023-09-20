@@ -22,9 +22,11 @@ let [isCounter, setCounter] = useState(0);
 export default const f = () => {
   
   return (
-    <div onClick={() => setCounter(newValue => newValue = 1)}>Click to make an error!</div>
-    <div onClick={() => setCounter(newValue => newValue = 0)}>Click to remove the error!</div>
-    {isCounter === 1 ? <TypeErrorJSX message={"This is error message."} ERROR_ID={"ID_OF_THE_ERROR"}/> : null}
+    <>
+      <div onClick={() => setCounter(newValue => newValue = 1)}>Click to make an error!</div>
+      <div onClick={() => setCounter(newValue => newValue = 0)}>Click to remove the error!</div>
+      {isCounter === 1 ? <TypeErrorJSX message={"This is error message."} ERROR_ID={"ID_OF_THE_ERROR"}/> : null}
+    </>
   )
 
 };
